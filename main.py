@@ -1,0 +1,8 @@
+autor = input('Escreva o nome do autor conforme o exemplo: SOBRENOME, Nome:')
+titulo = input('Escreva o título da obra:')
+subtitulo = input('Escreva o subtitulo da obra:')
+edicao = input('Escreva a edição da obra:')
+local_publicacao = input('Escreva o local de publicação:')
+editora = input('Escreva o nome da editora:')
+data = input('Escreva a data de publicação:')
+print(autor + '.' + titulo + ':' + subtitulo + '.' + edicao + '.' + local_publicacao + ':' + editora + ':' + data + '.')
